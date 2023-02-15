@@ -4,30 +4,29 @@
         font-family: 'Work Sans', sans-serif;
         margin: 0 ;
         padding: 0;   
-    }
-    /* Start header section  Style */
-    .banner{
-        display: flex;
-        position: absolute;
-    }.banner-img{
+    
         
+
     }
+    /* start header section  Style */
+   .banner{
+    background-image: url('images/banner/banner3.png');
+    background-repeat: no-repeat;
+    margin: 0;
+    width: 1600px;
+    height: 808px;
+   }
     .banner-content{
-        position: absolute;
-        left: 60%;
-        border:  0;
-        top: 10%;
-        
+        padding: 180px 960px;
         
     }.banner-title{
         color: white;
         font-size: 65px;
         line-height: 75px;
-        width: 70.7%;
+        width: 507px;
         font-weight: 700;
         text-align: justify;
-        margin-top: 17.65%;
-        margin-bottom: 10px;
+       
         
     }.banner-description{
         line-height: 26px;
@@ -41,7 +40,7 @@
         
 
     }.banner-btn{
-        background-color: white;
+        background-color: rgb(255, 254, 254);
         color: rgb(0, 76, 255);
         width: 200px;
         height: 90px;
@@ -53,12 +52,39 @@
         border-radius: 5px;
         margin-top: 35px;
         padding: 10px 10px;
+        
     }
-        /* End header section  Style */
+       /* end header section  Style */
 
-    /* Start main Section Style */
-    main{
-        width: 1600px;
-        background-color: aliceblue;
-        height: 50002px;
-    }
+       /* Start main section style */
+          /* main section 1 */
+       .My-failures{
+        display: flex;
+        gap: 150px;
+        align-items: center;
+        width: 1172px;
+        height: 725px;
+        padding-top: 80px;
+        padding-left: 208px;
+     
+
+       }.My-failures-content{
+        
+       }.My-failures-title{
+        font-size: 65px;
+        font-weight: 700;
+        width: auto;
+        line-height: 80px;
+        padding-bottom: 10%;
+       }.My-failures-description{
+        font-size: 25px;
+        padding-bottom: 15px;
+        line-height: 37px;
+        font-weight: 400;
+       }.My-failures-content ul li {
+        list-style: url('images/check-mark.png') inside none;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 25px;
+        
+       } 
