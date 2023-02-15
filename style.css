@@ -3,7 +3,8 @@
         font-family: 'Roboto', sans-serif;
         font-family: 'Work Sans', sans-serif;
         margin: 0 ;
-        padding: 0;   
+        padding: 0;  
+       
     
         
 
@@ -88,3 +89,50 @@
         line-height: 25px;
         
        } 
+       /* main section 2 */
+      .plan-title{
+        text-align: center;
+        width: 1600px;
+        height: auto;
+        font-size: 60px;
+        padding: 5% 0;
+      }.my-plan-options{
+        display: flex;
+        justify-content: space-between;
+        width: 1600px;
+        height: auto;
+        padding-left: 1.5%;
+        
+        
+        
+
+        
+      }.my-plan-option{
+        width: 300px;
+        height: 350x;
+
+
+       
+        
+        
+
+      }.plan-img{
+        padding-left: 32%;
+      }
+      .my-plan-option-title{
+        font-weight: 700;
+        font-size: 30px;
+        line-height: 30px;
+        text-align: center;
+        color: #151414;
+
+      }.my-plan-option-description{
+        font-weight: 700;
+        font-size: 30px;
+        line-height: 30px;
+        padding-top: 20px;
+        padding-left: 0;
+        text-align: center;
+        color: #726868;
+      }
+     
