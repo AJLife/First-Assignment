@@ -40,7 +40,7 @@
         margin-bottom: 10px;
         
 
-    }.banner-btn{
+    }.btn{
         background-color: rgb(255, 254, 254);
         color: rgb(0, 76, 255);
         width: 200px;
@@ -154,4 +154,73 @@
      }
     /* End Main Section Style */
     /* Start footer section Style*/
+      /* footer section 1 style  */
+      .footer-container{
+        display: flex;
+        justify-content: space-between;
+        width: 1600px;
+        height: 900px;
+        margin-left: 0;
+        margin-top: 200px;
+        margin-bottom: 2000px;
+        background-color: #151414;
+        border: 0;
+
+
+      }.footer-future{
+        width: 490px;
+        height: 300px;
+        padding-left: 200px;
+        color: azure;
+        padding-top: 10%;
+
+      }.future-title{
+        font-size: 45px;
+        font-weight: 700;
+        line-height: 53px;
+        padding-bottom: 16px;
+
+      }.footer-future .future-description{
+        padding-bottom: 24px;
+        line-height: 26px;
+        font-size: 18px;
+        font-weight: 400;
+        width: 485px;
+        height: 78px;
+      }.footer-future .future-contact{
+        padding-top: 35px;
+        font-size: 18px;
+        font-weight: 400;
+      }.future-icon{
+        padding-top: 35px;
+        
+       
+      }.footer-form{ 
+        width: 325px;
+        height: 206px;
+        padding-left: 200px;
+        color: #FFFFFF;
+        padding-top: 10%;
+        padding-right: 13%;
+        
+        
+      }.form-title{
+        font-size: 30px;
+        font-weight: 700;
+        line-height: 53px;
+        padding-bottom: 3.89%;
+      }input{
+        text-transform:capitalize;
+        width: 352px;
+        height: 54px;
+        border: 1px solid white;
+        border-radius: 10px ;
+        padding: 10px;
+        font-size: 22.5px;
+        font-weight: 400;
+        line-height: 21px;
+        color: #FFFFFF;
+        background-color: #111111;
+        
+      } 
 
