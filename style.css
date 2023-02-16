@@ -9,7 +9,7 @@
         
 
     }
-    /* start header section  Style */
+    /* Start header section  Style */
    .banner{
     background-image: url('images/banner/banner3.png');
     background-repeat: no-repeat;
@@ -51,14 +51,14 @@
         font-size: 30px;
         border: 0;
         border-radius: 5px;
-        margin-top: 35px;
+        margin-top: 25px;
         padding: 10px 10px;
         
     }
-       /* end header section  Style */
+       /* End header section  Style */
 
        /* Start main section style */
-          /* main section 1 */
+          /* main section Style 1 */
        .My-failures{
         display: flex;
         gap: 150px;
@@ -89,7 +89,7 @@
         line-height: 25px;
         
        } 
-       /* main section 2 */
+         /* main section Style 2 */
       .plan-title{
         text-align: center;
         width: 1600px;
@@ -99,25 +99,17 @@
       }.my-plan-options{
         display: flex;
         justify-content: space-between;
-        width: 1600px;
+        width: 1580px;
         height: auto;
         padding-left: 1.5%;
-        
-        
-        
-
         
       }.my-plan-option{
         width: 300px;
         height: 350x;
 
-
-       
-        
-        
-
       }.plan-img{
         padding-left: 32%;
+        padding-bottom: 5%;
       }
       .my-plan-option-title{
         font-weight: 700;
@@ -135,4 +127,31 @@
         text-align: center;
         color: #726868;
       }
-     
+        /* main section Style 3 */
+     .gradient-container{
+      background-image:linear-gradient(90deg ,#005fac 0% ,rgba(0, 95, 172, 0)100%), url('images/watch.png');
+      border-radius: 8px;
+      width: 1140px;
+      height: 300px;
+      margin-top: 10%;
+      margin-left: 200px;
+      
+
+     }.gradient-content{
+      padding: 40px;
+      border: 0;
+
+
+     }
+     .gradient-content-title{
+      color: white;
+      width: 460px;
+      height: 95px;
+      left: 300px;
+      font-size: 40px;
+      line-height: 47px;
+
+     }
+    /* End Main Section Style */
+    /* Start footer section Style*/
+
